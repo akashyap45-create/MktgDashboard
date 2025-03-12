@@ -1,0 +1,60 @@
+/* /static/style.css */
+
+body {
+    font-family: sans-serif;
+}
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.chart-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.tooltip {
+    position: absolute;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+.axis path, .axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+.axis text {
+    font-size: 0.9em;
+}
+.bar {
+    fill: steelblue;
+}
+.bar:hover {
+    fill: lightsteelblue;
+}
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 2px;
+}
+.line-area {
+    fill: lightsteelblue;
+    opacity: 0.5;
+}
+.dot {
+    fill: steelblue;
+}
+.bubble {
+    fill: steelblue;
+    opacity: 0.6;
+}
+.bubble:hover {
+    opacity: 0.8;
+}
+```
